@@ -19,7 +19,7 @@ public class JDBCExample {
 	private static void runExample() throws Exception {
 	
 		System.out.println("loading JDBC driver");
-        Class.forName(JDBC_DRIVER).newInstance();
+		Class.forName(JDBC_DRIVER).newInstance();
         
 		System.out.println("connecting to database with connection string \"" + connectionString + "\"");
 		Connection con = DriverManager.getConnection(
