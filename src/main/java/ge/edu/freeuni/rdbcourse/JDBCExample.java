@@ -27,7 +27,7 @@ public class JDBCExample {
 				JDBC_USERNAME, 
 				JDBC_PASSWORD);
 		
-		System.out.println("running manufacturers query");
+		System.out.println("preparing manufacturers query");
 		Statement statManu = con.createStatement();
 		
 		System.out.println("executing manufacturers query");
